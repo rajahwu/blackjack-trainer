@@ -1,3 +1,5 @@
+import type { Rank } from './types'
+
 export const rankValues: Record<Rank, number> = {
   A: 11,
   '2': 2, '3': 3, '4': 4, '5': 5, '6': 6,

@@ -1,4 +1,4 @@
-import { PlayerAction } from '../../utils/types'
+import type { PlayerAction } from '../../utils/types'
 
 interface ControlsProps {
   gamePhase: string

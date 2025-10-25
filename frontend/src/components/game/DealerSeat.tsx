@@ -1,4 +1,4 @@
-import { Dealer } from '../../utils/types'
+import type { Dealer } from '../../utils/types'
 
 interface DealerSeatProps {
   dealer: Dealer

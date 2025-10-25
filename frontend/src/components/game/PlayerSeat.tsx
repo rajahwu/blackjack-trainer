@@ -1,4 +1,4 @@
-import { Player } from '../../utils/types'
+import type { Player } from '../../utils/types'
 
 interface PlayerSeatProps {
   player: Player

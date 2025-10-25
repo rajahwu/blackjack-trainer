@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { Card } from '../utils/types'
+import type { Card } from '../utils/types'
 import { createDeck, shuffle } from '../utils/deckFactory'
 
 /**

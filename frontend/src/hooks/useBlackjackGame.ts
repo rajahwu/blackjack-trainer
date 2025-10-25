@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { Card, Player, Dealer, GamePhase, PlayerAction } from '../utils/types'
+import type { Card, Player, Dealer, GamePhase, PlayerAction } from '../utils/types'
 import { useDeck } from './useDeck'
 import { calculateScore } from './useScore'
 

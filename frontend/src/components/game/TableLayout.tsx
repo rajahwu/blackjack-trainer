@@ -1,4 +1,4 @@
-import { Player } from '../../utils/types'
+import type { Player } from '../../utils/types'
 import PlayerSeat from './PlayerSeat'
 import DealerSeat from './DealerSeat'
 

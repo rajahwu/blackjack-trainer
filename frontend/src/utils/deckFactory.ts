@@ -1,6 +1,6 @@
-import { Card, Suit, Rank } from './types'
+import type { Card, Suit, Rank } from './types'
 import { cardSymbols } from './cardSymbols'
-import { rankValues } from './cardValues'
+import { rankValues } from './rankValues'
 
 const suits: Suit[] = ['spades', 'hearts', 'clubs', 'diamonds']
 const ranks: Rank[] = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']

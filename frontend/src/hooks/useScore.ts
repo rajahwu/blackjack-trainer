@@ -1,4 +1,4 @@
-import { Card } from '../utils/types'
+import type { Card } from '../utils/types'
 
 /**
  * Calculate the best blackjack score for a given hand.

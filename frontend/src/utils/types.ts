@@ -1,7 +1,13 @@
 // src/utils/types.ts
+export type Suit = 'spades' | 'hearts' | 'clubs' | 'diamonds'
+export type Rank = 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10' | 'J' | 'Q' | 'K'
 
-// A single playing card (emoji string for now)
-export type Card = string
+export interface Card {
+  suit: Suit
+  rank: Rank
+  symbol: string   // 🂡, 🂢, etc.
+  value: number    // Blackjack value
+}
 
 // Game phases
 export type GamePhase = 'setup' | 'dealing' | 'round' | 'dealer' | 'resolve'
